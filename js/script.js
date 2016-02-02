@@ -1,26 +1,17 @@
 $(document).ready(function() {
 		    $("#Eliza").click(function() {
-		        $("#ElizaPic").show();
-		        $("#PrincessPic").hide();
-		        $("#CatsbyPic").hide();
-		        $("#ElizaBio").show();
-		        $("#PrincessBio").hide();
-		        $("#CatsbyBio").hide();
+		        $("#Eliza").show();
+		        $("#Princess").hide();
+		        $("#Catsby").hide();
 		    });  
 		    $("#Princess").click(function() {
-		        $("#ElizaPic").hide();
-		        $("#PrincessPic").show();
-		        $("#CatsbyPic").hide(); 
-		        $("#ElizaBio").hide();
-		        $("#PrincessBio").show();
-		        $("#CatsbyBio").hide();
+		        $("#Eliza").hide();
+		        $("#Princess").show();
+		        $("#Catsby").hide(); 
 		        });
 		    $("#Catsby").click(function() {
-		        $("#ElizaPic").hide();
-		        $("#PrincessPic").hide();
-		        $("#CatsbyPic").show();  
-		        $("#ElizaBio").hide();
-		        $("#PrincessBio").hide();
-		        $("#CatsbyBio").show();
+		        $("#Eliza").hide();
+		        $("#Princess").hide();
+		        $("#Catsby").show();  
 		    });
 		});
