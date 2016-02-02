@@ -24,26 +24,14 @@
 		    border-width : 1px;
 		}
 
-		#ElizaPic {
+		.Eliza {
 		    display : none;    
 		}
 
-		#PrincessPic {
+		.Princess {
 		    display : none;
 		}
 
-		#CatsbyPic {
-		    display : none;        
-		}
-
-		#ElizaBio {
-		    display : none;    
-		}
-
-		#PrincessBio {
-		    display : none;
-		}
-
-		#CatsbyBio {
+		.Catsby {
 		    display : none;        
 		}
