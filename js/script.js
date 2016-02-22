@@ -1,17 +1,13 @@
 $(document).ready(function() {
-		    $("#Eliza").click(function() {
-		        $("#Eliza").show();
-		        $("#Princess").hide();
-		        $("#Catsby").hide();
-		    });  
-		    $("#Princess").click(function() {
-		        $("#Eliza").hide();
-		        $("#Princess").show();
-		        $("#Catsby").hide(); 
-		        });
-		    $("#Catsby").click(function() {
-		        $("#Eliza").hide();
-		        $("#Princess").hide();
-		        $("#Catsby").show();  
-		    });
-		});
+
+
+
+    $(".myButton").click(function() {
+      if($(this).attr('id') == 'WyandanchButton' ) {
+        map.panTo(Wyandanch, panOptions);
+      } else {
+        if ($(this).attr('id') == 'RochesterButton' ) {
+        map.panTo(Rochester, panOptions);
+      } else {map.panTo(Rome, panOptions);
+      }
+    });
