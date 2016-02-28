@@ -3,7 +3,7 @@ var basemapUrl = 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png';
 var attribution = '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>';
 
 
-var NYS = [43.117024,-75.805664];
+  var NYS = [43.117024,-75.805664];
   var Wyandanch = [40.750388936610186,-73.36216101970355];
   var Rochester = [43.139086359108724,-77.5949564081189];
   var Rome = [43.20528705920949,-75.44971057510915];
@@ -115,6 +115,29 @@ $(".myButton").click(function() {
     })
     //.addTo(BOAmap);
   });
+
+
+// BOAmap.on('load', function() {
+//          BOAmap.removeLayer(BOABoundaries2)});
+
+BOAmap.on('zoomend', function() {
+         if (BOAmap.getZoom() < 10 ){
+                BOAmap.removeLayer(BOABoundaries2);
+              }
+         else if (BOAmap.getZoom() >= 10 ){
+                BOAmap.addLayer(BOABoundaries2);
+              }
+    });
+
+BOAmap.on('zoomend', function() {
+         if (BOAmap.getZoom() >= 10 ){
+                BOAmap.removeLayer(BOAPoints2);
+              }
+         else if (BOAmap.getZoom() < 10 ){
+                BOAmap.addLayer(BOAPoints2);
+              }
+    });
+
 
 
 
