@@ -44,7 +44,8 @@ $(".myButton").click(function() {
 
 
 
-  var geojson;
+  var BOAPoints2;
+  var BOABoundaries2;
 
   //this function takes a value and returns a color based on which bucket the value falls between
   function getColor(d) {
@@ -103,28 +104,21 @@ $(".myButton").click(function() {
 
   //be sure to specify style and onEachFeature options when calling L.geoJson().
   $.getJSON('shapefiles/BOAPoints.geojson', function(BOAPoints) {
-    geojson = L.geoJson(BOAPoints,{
+    BOAPoints2 = L.geoJson(BOAPoints,{
     }).addTo(BOAmap);
   });
 
   $.getJSON('shapefiles/BOADesignationBoundaries.geojson', function(BOABoundaries) {
-    geojson = L.geoJson(BOABoundaries,{
+    BOABoundaries2 = L.geoJson(BOABoundaries,{
       style: style,
       onEachFeature: onEachFeature
-    }).addTo(BOAmap);
+    })
+    //.addTo(BOAmap);
   });
 
 
 
-// BOAmap.on('zoomend', function() {
-//          if ( BOAmap.getZoom() < 8 ){BOAmap.removeLayer(BOABoundaries)}
-//          else if ( BOAmap.getZoom() >= 8 ){BOAmap.addLayer(BOABoundaries)}
-//     });
 
-// BOAmap.on('zoomend', function(g) {
-//          if ( BOAmap.getZoom() > 8 ){ BOAmap.removeLayer(BOAPoints)}
-//          else if ( BOAmap.getZoom() <= 7 ){ BOAmap.addLayer(BOAPoints)}
-//     });
 
 
 
