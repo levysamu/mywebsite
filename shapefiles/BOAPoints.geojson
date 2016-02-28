@@ -1,1 +1,427 @@
-{"type":"FeatureCollection","bbox":[-79.13281832639552,40.58413049229303,-73.28677750355563,43.60464171561776],"features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.04305062948664,43.11806173390771]},"properties":{"Id":"0","BOA_Name":"Niagara Falls Highland Community","Date_des":"December 2015","ORIG_FID":"0"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.56510645223885,40.76133008289763]},"properties":{"Id":"0","BOA_Name":"New Cassell","Date_des":"December 2015","ORIG_FID":"1"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.18261296412409,42.99708756893802]},"properties":{"Id":"0","BOA_Name":"Batavia Opportunity Area","Date_des":"April 2015","ORIG_FID":"2"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.36216101970355,40.750388936610186]},"properties":{"Id":"0","BOA_Name":"Wyandanch Downtown","Date_des":"April 2015","ORIG_FID":"3"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.56717631579231,43.28246944957296]},"properties":{"Id":"0","BOA_Name":"Fort Edward Northeast Industrial","Date_des":"April 2015","ORIG_FID":"4"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.36191210021668,43.616907847034426]},"properties":{"Id":"0","BOA_Name":"Village of Lyons Falls","Date_des":"April 2015","ORIG_FID":"5"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-77.5949564081189,43.139086359108724]},"properties":{"Id":"0","BOA_Name":"Vacuum Oil-South Genesee River Corridor","Date_des":"April 2015","ORIG_FID":"6"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.88440689429085,43.0341733220526]},"properties":{"Id":"0","BOA_Name":"City of North Tonawanda","Date_des":"April 2015","ORIG_FID":"7"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-77.69053767075114,43.17211400237249]},"properties":{"Id":"0","BOA_Name":"Lyell-Lake-State a/k/a LYLAKS","Date_des":"April 2015","ORIG_FID":"8"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.44971057510915,43.20528705920949]},"properties":{"Id":"0","BOA_Name":"Downtown Rome","Date_des":"April 2015","ORIG_FID":"9"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-77.30347017685554,43.0696250781235]},"properties":{"Id":"0","BOA_Name":"Village of Macedon Waterfront & Downtown","Date_des":"April 2015","ORIG_FID":"10"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.80544911280579,40.69875444566085]},"properties":{"Id":"0","BOA_Name":"Jamaica","Date_des":"April 2015","ORIG_FID":"11"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.92911522023579,40.81402144442415]},"properties":{"Id":"0","BOA_Name":"Port Morris Harlem Riverfront","Date_des":"April 2015","ORIG_FID":"12"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.23001034556535,42.10073715780264]},"properties":{"Id":"0","BOA_Name":"Chadakoin River Central/Eastern","Date_des":"April 2015","ORIG_FID":"13"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.88304702248382,42.111771978449845]},"properties":{"Id":"0","BOA_Name":"Brandywine Corridor","Date_des":"December 2015","ORIG_FID":"14"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.62231992214186,40.853395785504254]},"properties":{"Id":"0","BOA_Name":"The Orchard","Date_des":"December 2015","ORIG_FID":"15"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-75.96312979941781,42.11349247480881]},"properties":{"Id":"0","BOA_Name":"Endicott Johnson Industrial Spine","Date_des":"December 2015","ORIG_FID":"16"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.70033685034228,42.76578033909971]},"properties":{"Id":"0","BOA_Name":"Cohoes Boulevard","Date_des":"December 2015","ORIG_FID":"17"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-76.4970666439765,43.46456060081202]},"properties":{"Id":"0","BOA_Name":"Oswego Canal Corridor","Date_des":"September 2015","ORIG_FID":"18"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.68790084540737,43.176483925807204]},"properties":{"Id":"0","BOA_Name":"City of Lockport","Date_des":"December 2015","ORIG_FID":"19"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-78.44092525175733,42.09139926929096]},"properties":{"Id":"0","BOA_Name":"City of Olean NW Quadrant","Date_des":"December 2015","ORIG_FID":"20"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-76.97632269886606,42.8761157623375]},"properties":{"Id":"0","BOA_Name":"Geneva North End","Date_des":"December 2015","ORIG_FID":"21"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-74.01508374637557,40.65393802661798]},"properties":{"Id":"0","BOA_Name":"Sunset Park","Date_des":"December 2015","ORIG_FID":"22"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-76.16255949098442,43.07477342845074]},"properties":{"Id":"0","BOA_Name":"Hiawatha Boulevard and Lodi Street","Date_des":"September 2015","ORIG_FID":"23"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-76.40917909423443,43.321686789348064]},"properties":{"Id":"0","BOA_Name":"City of Fulton","Date_des":"September 2015","ORIG_FID":"24"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-74.0348596680247,42.865527244362596]},"properties":{"Id":"0","BOA_Name":"Rotterdam Junction","Date_des":"December 2015","ORIG_FID":"25"}}]}
+{  
+   "type":"FeatureCollection",
+   "bbox":[  
+      -79.13281832639552,
+      40.58413049229303,
+      -73.28677750355563,
+      43.60464171561776
+   ],
+   "features":[  
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -79.04305062948664,
+               43.11806173390771
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Niagara Falls Highland Community",
+            "Date_des":"December 2015",
+            "ORIG_FID":"0"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -73.56510645223885,
+               40.76133008289763
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"New Cassell",
+            "Date_des":"December 2015",
+            "ORIG_FID":"1"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -78.18261296412409,
+               42.99708756893802
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Batavia Opportunity Area",
+            "Date_des":"April 2015",
+            "ORIG_FID":"2"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -73.36216101970355,
+               40.750388936610186
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Wyandanch Downtown",
+            "Date_des":"April 2015",
+            "ORIG_FID":"3"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -73.56717631579231,
+               43.28246944957296
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Fort Edward Northeast Industrial",
+            "Date_des":"April 2015",
+            "ORIG_FID":"4"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -75.36191210021668,
+               43.616907847034426
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Village of Lyons Falls",
+            "Date_des":"April 2015",
+            "ORIG_FID":"5"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -77.5949564081189,
+               43.139086359108724
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Vacuum Oil-South Genesee River Corridor",
+            "Date_des":"April 2015",
+            "ORIG_FID":"6"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -78.88440689429085,
+               43.0341733220526
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"City of North Tonawanda",
+            "Date_des":"April 2015",
+            "ORIG_FID":"7"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -77.69053767075114,
+               43.17211400237249
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Lyell-Lake-State a/k/a LYLAKS",
+            "Date_des":"April 2015",
+            "ORIG_FID":"8"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -75.44971057510915,
+               43.20528705920949
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Downtown Rome",
+            "Date_des":"April 2015",
+            "ORIG_FID":"9"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -77.30347017685554,
+               43.0696250781235
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Village of Macedon Waterfront & Downtown",
+            "Date_des":"April 2015",
+            "ORIG_FID":"10"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -73.80544911280579,
+               40.69875444566085
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Jamaica",
+            "Date_des":"April 2015",
+            "ORIG_FID":"11"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -73.92911522023579,
+               40.81402144442415
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Port Morris Harlem Riverfront",
+            "Date_des":"April 2015",
+            "ORIG_FID":"12"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -79.23001034556535,
+               42.10073715780264
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Chadakoin River Central/Eastern",
+            "Date_des":"April 2015",
+            "ORIG_FID":"13"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -75.88304702248382,
+               42.111771978449845
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Brandywine Corridor",
+            "Date_des":"December 2015",
+            "ORIG_FID":"14"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -73.62231992214186,
+               40.853395785504254
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"The Orchard",
+            "Date_des":"December 2015",
+            "ORIG_FID":"15"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -75.96312979941781,
+               42.11349247480881
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Endicott Johnson Industrial Spine",
+            "Date_des":"December 2015",
+            "ORIG_FID":"16"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -73.70033685034228,
+               42.76578033909971
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Cohoes Boulevard",
+            "Date_des":"December 2015",
+            "ORIG_FID":"17"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -76.4970666439765,
+               43.46456060081202
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Oswego Canal Corridor",
+            "Date_des":"September 2015",
+            "ORIG_FID":"18"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -78.68790084540737,
+               43.176483925807204
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"City of Lockport",
+            "Date_des":"December 2015",
+            "ORIG_FID":"19"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -78.44092525175733,
+               42.09139926929096
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"City of Olean NW Quadrant",
+            "Date_des":"December 2015",
+            "ORIG_FID":"20"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -76.97632269886606,
+               42.8761157623375
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Geneva North End",
+            "Date_des":"December 2015",
+            "ORIG_FID":"21"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.01508374637557,
+               40.65393802661798
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Sunset Park",
+            "Date_des":"December 2015",
+            "ORIG_FID":"22"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -76.16255949098442,
+               43.07477342845074
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Hiawatha Boulevard and Lodi Street",
+            "Date_des":"September 2015",
+            "ORIG_FID":"23"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -76.40917909423443,
+               43.321686789348064
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"City of Fulton",
+            "Date_des":"September 2015",
+            "ORIG_FID":"24"
+         }
+      },
+      {  
+         "type":"Feature",
+         "geometry":{  
+            "type":"Point",
+            "coordinates":[  
+               -74.0348596680247,
+               42.865527244362596
+            ]
+         },
+         "properties":{  
+            "Id":"0",
+            "BOA_Name":"Rotterdam Junction",
+            "Date_des":"December 2015",
+            "ORIG_FID":"25"
+         }
+      }
+   ]
+}

@@ -17,9 +17,22 @@
 		  height: 300px;
 		}
 
-		   #BOAmap {
-   			width: 100%;
-   			height: 500px;
-   			color: black;
-   			background-color: gray;
-   			border-radius: 10px;}
+#BOAmap {
+	   	width: 100%;
+	   	height: 500px;
+   		color: black;
+   		background-color: gray;
+   		border-radius: 10px;}		   
+
+
+/*#infoWindow {
+       background: #FFFFFF;
+       padding: 15px;
+       border-radius: 10px;
+       font-size: 30px;
+       position: relative;
+       top: -78px;
+       width: auto;
+       display: inline;
+       margin-left: 20px;
+     }*/
